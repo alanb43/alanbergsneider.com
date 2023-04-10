@@ -238,47 +238,107 @@
             <!-- Coursework section -->
             <section id="coursework">
                 <h2>Coursework</h2>
-                <div class="ui two stackable cards" style="margin-top: 2%;">
-                    <div class="ui card">
-                        <div class="content" style="flex-grow: 0;">
-                        <div class="header">Coming Soon!</div>
+                <table id="key" class="ui very basic right aligned table">
+                    <thead>
+                        <tr>
+                            <th class="left aligned">Topics / Heavy Focus</th>
+                            <th class="center aligned">Emoji</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="left aligned">Artificial Intelligence</td>
+                            <td class="center aligned">🤖</td>
+                        </tr>
+                        <tr>
+                            <td class="left aligned">Web Technology / Applications</td>
+                            <td class="center aligned">🌐</td>
+                        </tr>
+                        <tr>
+                            <td class="left aligned">Low-level Software / Infrastructure</td>
+                            <td class="center aligned">⚙️</td>
+                        </tr>
+                        <tr>
+                            <td class="left aligned">Software / Application Development</td>
+                            <td class="center aligned">🧑🏽‍💻</td>
+                        </tr>
+                        <tr>
+                            <td class="left aligned">Theory / Fundamentals</td>
+                            <td class="center aligned">⏳</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="ui two stackable cards" style="margin-top: 2%;">    
+                    <div class="ui fluid card">
+                        <div class="content">
+                        <h3 class="header">
+                            Computer Networks
+                        </h3>
+                        <div class="meta">
+                            <a href="https://github.com/alanb43/eecs489class/tree/main" target="_blank">eecs489.org 🌐 ⚙️ 🧑🏽‍💻</a>
+                        </div>
                         </div>
                         <p class="right aligned floating ui primary label">Winter 2023</p>
+                        <div class="content" style="flex-grow: 0;">
+                        <div class="description">
+                            <p>
+                                A top down exploration of how networks operate. Covers video streaming, content 
+                                distribution networks, cloud computing, transport layer protocols, routers & forwarding, 
+                                and ethernet & the link layer. Also state-of-the-art topics such as datacenter, software-defined, 
+                                and programmable networks.
+                            </p>
+                        </div>
+                        </div>
+                        <div class="extra content" style="flex-grow: 0;">
+                            <p>The internet, demystified...</p>
+                        </div>
+                    </div><!-- /fluid card -->
+
+                    <div class="ui fluid card">
                         <div class="content">
-                        <div class="ui small feed">
-                            <div class="event">
-                            <div class="content">
-                                <div class="summary">
-                                Computer Networking
-                                </div>
-                                <div class="meta">
-                                EECS 489
-                                </div>
-                            </div>
-                            </div><!-- / event -->
-                            <div class="event">
-                            <div class="content">
-                                <div class="summary">
-                                Compiler Construction
-                                </div>
-                                <div class="meta">
-                                EECS 483
-                                </div>
-                            </div>
-                            </div><!-- / event -->
-                            <div class="event">
-                            <div class="content">
-                                <div class="summary">
-                                Stastics and Deep Learning AI
-                                </div>
-                                <div class="meta">
-                                DATASCI 315
-                                </div>
-                            </div>
-                            </div><!-- / event -->
+                        <h3 class="header">
+                            Compiler Construction
+                        </h3>
+                        <div class="meta">
+                            <p>EECS 483 ⚙️ ⏳</p>
                         </div>
                         </div>
-                    </div><!-- / ui card -->
+                        <p class="right aligned floating ui primary label">Winter 2023</p>
+                        <div class="content" style="flex-grow: 0;">
+                        <div class="description">
+                            <p>
+                                Covers lexical scanning, parsing, abstract syntax trees, 
+                                semantic analysis, intermediate code generation, optimization, and code generation.
+                                Built a working compiler for the Decaf language (a subset of the C++ and Java programming languages).
+                            </p>
+                        </div>
+                        </div>
+                        <div class="extra content" style="flex-grow: 0;">
+                            <p>Theory meets application here.</p>
+                        </div>
+                    </div><!-- /fluid card -->
+
+                    <div class="ui fluid card">
+                        <div class="content">
+                        <h3 class="header">
+                            Intro to Deep Learning & AI
+                        </h3>
+                        <div class="meta">
+                            <a href="https://ambujtewari.github.io/stats315-winter2023/" target="_blank">datasci315.org 🤖 ⏳</a>
+                        </div>
+                        </div>
+                        <p class="right aligned floating ui primary label">Winter 2023</p>
+                        <div class="content" style="flex-grow: 0;">
+                        <div class="description">
+                            <p>
+                                Revisits the calculus, statistics, and linear algebra underpinning modern artificial intelligence.
+                                Introduces tensorflow, keras, and deep learning for various problems (classification, 
+                                regression, optimization, image classification, time-series) using a variety of architectures 
+                                (basic neural nets, convolutional neural nets, recurrent neural nets).
+                            </p>
+                        </div>
+                        </div>
+                    </div><!-- /fluid card -->
 
                     <div class="ui fluid card">
                         <div class="content">
@@ -286,7 +346,7 @@
                             Intro to Operating Systems (advanced 6 credit version)
                         </h3>
                         <div class="meta">
-                            <p>EECS 482</p>
+                            <p>EECS 482 ⚙️ 🧑🏽‍💻</p>
                         </div>
                         </div>
                         <p class="right aligned floating ui primary label">Fall 2022</p>
@@ -306,13 +366,13 @@
                             Conversational Artificial Intelligence
                         </h3>
                         <div class="meta">
-                            <p>EECS 449 [Capstone]</p>
+                            <p>EECS 449 [Capstone] 🤖 🧑🏽‍💻 🌐</p>
                         </div>
                         </div>
                         <p class="right aligned floating ui primary label">Fall 2022</p>
                         <div class="content" style="flex-grow: 0;">
                         <div class="description">
-                            <p>Learn state of the art techniques for modeling language with deep learning, leveraging transfer learning to solve NLP problems, and gain experience interpreting research papers as convAI evolves.</p>
+                            <p>Learn state of the art techniques for modeling language with deep learning, leverage transfer learning to solve NLP problems, and gain experience interpreting research papers as convAI evolves. Built a specialized chat-bot with custom models, check it out below!</p>
                         </div>
                         </div>
                         <div class="extra content" style="flex-grow: 0;">
@@ -333,7 +393,7 @@
                             Software Engineering
                         </h3>
                         <div class="meta">
-                            <a href="https://web.eecs.umich.edu/~weimerw/481/" target="_blank">eecs481.org</a>
+                            <a href="https://web.eecs.umich.edu/~weimerw/481/" target="_blank">eecs481.org 🧑🏽‍💻 ⏳</a>
                         </div>
                         </div>
                         <p class="right aligned floating ui primary label">Fall 2022</p>
@@ -364,7 +424,7 @@
                             Web Systems
                         </h3>
                         <div class="meta">
-                            <a href="https://eecs485.org/" target="_blank">eecs485.org</a>
+                            <a href="https://eecs485.org/" target="_blank">eecs485.org 🌐 🧑🏽‍💻</a>
                         </div>
                         </div>
                         <p class="right aligned floating ui primary label">Winter 2022</p>
@@ -392,7 +452,7 @@
                             Foundations of Computer Science
                             </h3>
                             <div class="meta">
-                            <a href="https://eecs376.org/" target="_blank">eecs376.org</a>
+                            <a href="https://eecs376.org/" target="_blank">eecs376.org ⏳</a>
                             </div>
                             <p class="right aligned floating ui primary label">Winter 2022</p>
                         </div>
@@ -415,7 +475,7 @@
                             Computer Organization
                             </h3>
                             <div class="meta">
-                                <a href="https://eecs370.github.io/" target="_blank">eecs370.org</a>
+                                <a href="https://eecs370.github.io/" target="_blank">eecs370.org ⚙️ ⏳</a>
                             </div>
                             <p class="right aligned floating ui primary label">Fall 2021</p>
                         </div>
@@ -432,7 +492,7 @@
                             <img class="right floated rounded mini ui image" src="./assets/eecs281logo.png" alt="EECS 281 logo">
                             <h3 class="header">Data Structures and Algorithms</h3>
                             <div class="meta">
-                                <a href="https://eecs281staff.github.io/eecs281.org" target="_blank">eecs281.org</a>
+                                <a href="https://eecs281staff.github.io/eecs281.org" target="_blank">eecs281.org 🧑🏽‍💻 ⏳ </a>
                             </div>
                             <p class="right aligned floating ui primary label">Fall 2021</p>
                         </div>
@@ -458,7 +518,7 @@
                             <img class="right floated rounded mini ui image" src="./assets/eecs280logo.png" alt="EECS 280 logo">
                             <h3 class="header">Programming and Intro Data Structures</h3>
                             <div class="meta">
-                                <a href="https://eecs280.org/" target="_blank">eecs280.org</a>
+                                <a href="https://eecs280.org/" target="_blank">eecs280.org 🧑🏽‍💻</a>
                             </div>
                             <p class="right aligned floating ui primary label">Winter 2021</p>
                         </div>
@@ -483,7 +543,7 @@
                     <div class="content" style="flex-grow: 0;">
                         <h3 class="header">Discrete Mathematics</h3>
                         <div class="meta">
-                            <p>EECS 203</p>
+                            <p>EECS 203 ⏳</p>
                         </div>
                         <p class="right aligned floating ui primary label">Fall 2020</p>
                         </div>
